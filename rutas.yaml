@@ -1,0 +1,7 @@
+path: D:/Asitec/OIDv4_ToolKit/OID/Dataset  # Ruta a tu dataset
+train: /train       # Carpeta de imágenes de entrenamiento
+val: images/val           # Carpeta de imágenes de validación
+test: images/test         # Carpeta de imágenes de prueba (opcional)
+
+nc: 4                     # Número de clases (Handgun, Rifle, Knife, Bomb)
+names: ['Handgun', 'Rifle', 'Knife', 'Bomb']
